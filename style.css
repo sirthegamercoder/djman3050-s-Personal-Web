@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'PhantomMuff15';
+    src: url('fonts/PhantomMuff15.woff2') format('woff2'),
+    url('fonts/PhantomMuff15.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-image: url(images/bg.png) ;
+            background-position: left 50%;
+            background-position-x: 30%;
+            outline: 5px soild black ;
+            font-family: 'PhantomMuff15', sans-serif;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .profile-container, .about {
+            padding: 20px;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+        .about .description {
+            font-size: 24px;
+            color: white;
+        }
+        .animated-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #34d83a;
+            color: black;
+            text-align: center;
+            font-size: 24px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+            font-family: 'PhantomMuff15', sans-serif;
+            transition: background-color 0.3s ease, transform 0.5s ease, box-shadow 0.9s ease;
+        }
+        .animated-button:hover {
+        background-color: #1f8027;
+        transform: scale(1.02);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 5px rgba(0, 0, 0, 0.5);
+        }
+        .profile-container {
+            overflow: hidden;
+            border-radius: 50%;
+            width: 256px;
+            height: 256px;
+            transition: transform 0.3s ease;
+        }
+        .profile-pic {
+            width: 256px;
+            height: 256px;
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            box-shadow: 0 8px 5px rgba(0, 0, 0, 0.5);
+        }
+        .profile-container:hover .profile-pic {
+            transform: scale(1.1);
+        }
+        .profile-pic.clicked {
+            transform: scale(0.9);
+        }
