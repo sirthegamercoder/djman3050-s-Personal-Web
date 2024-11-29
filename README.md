@@ -8,6 +8,6 @@
 <p>4. On the favicon icon it says DPW which is actually the word DPW which is the reverse word of the word DWP a file type that is often used in FL Studio Mobile</p>
 <p>5. This personal site is actually made with Blackbox AI</p>
 <h1>Credit :</h1>
-<span>kentiee_ for background</span>
+<span>kentiee_ for background sun scene</span>
 <h1>Closure</h1>
 <span>THANKS FOR VISIT MY PERSEONAL WEB!</span>
